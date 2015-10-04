@@ -1,0 +1,35 @@
+{
+  "name": "Koa Starter",
+  "version": "0.0.1",
+  "description": "A basic boilerplate for building Koa apps.",
+  "author": "tomascaslo <tomas.caslo90@gmail.com>",
+  "contributors": [
+    {
+      "name": "tomascaslo",
+      "email": "tomas.caslo90@gmail.com"
+    }
+  ],
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "koa",
+    "meetup"
+  ],
+  "dependencies": {
+    "koa": "^1.0.0",
+    "koa-router": "^5.2.2",
+    "superagent": "^1.4.0"
+  },
+  "devDependencies": {
+    "debug": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "jscs": "^2.2.1"
+  }
+}
